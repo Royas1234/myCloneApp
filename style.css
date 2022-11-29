@@ -16,7 +16,7 @@
 
 nav {
   padding: 0px 24px;
-  margin: 15px 0px 5px 0px;
+  margin: 15px 0px 15px 0px;
 
   height: 50px;
   width: 100%;
@@ -123,7 +123,7 @@ input::placeholder {
   width: 100%;
   height: 400px;
   margin: 0 auto;
-  background-image: url("./Images/people.jpg");
+  background-image: url("./Images/background.jpg");
   background-size: cover;
   padding: 30px 0px 0px 40px;
   margin-bottom: 48px;
@@ -483,42 +483,40 @@ input::placeholder {
   gap: 20px;
 }
 
- .exploreLink{
+.exploreLink {
   margin-top: 15px;
- }
+}
 
-
-.exploreLink a{
+.exploreLink a {
   border: 1px solid #1c1d1f;
   padding: 12px;
   margin-top: 10px;
   text-decoration: none;
   color: #1c1d1f;
   font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.2px;
-    font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  font-size: 14px;
 }
-.exploreLink a:hover{
+.exploreLink a:hover {
   cursor: pointer;
   background-color: whitesmoke;
 }
 
 /* instructorSection */
-.instructorSection{
+.instructorSection {
   margin-top: 64px;
-  
 }
-.instructorContainer{
+.instructorContainer {
   display: flex;
-  align-items:center;
+  align-items: center;
   padding: 40px 0px;
 
   gap: 60px;
   width: 900px;
   margin: 0 auto;
 }
-.instructorText h2{
+.instructorText h2 {
   font-weight: 700;
   font-size: 35px;
   line-height: 1.25;
@@ -526,7 +524,7 @@ input::placeholder {
   margin-bottom: 16px;
   color: #1c1d1f;
 }
-.instructorText p{
+.instructorText p {
   font-size: 20px;
   margin-bottom: 16px;
   font-weight: 400;
@@ -534,51 +532,51 @@ input::placeholder {
   text-align: left;
   color: #1c1d1f;
 }
-.startButton{
+.startButton {
   padding-top: 20px;
 }
-.instructorText a{
+.instructorText a {
   border: 1px solid #1c1d1f;
   padding: 12px;
 
   text-decoration: none;
   color: #1c1d1f;
   font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.2px;
-    font-size: 16px;
-    background-color: #1c1d1f;
-    color: white;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+  background-color: #1c1d1f;
+  color: white;
 }
 
 /* trustedSection */
-.trustedSection{
+.trustedSection {
   margin-top: 64px;
   margin-bottom: 96px;
   padding: 32px;
   background: #f7f9fa;
- 
+
   width: 100%;
   height: 195px;
 }
-.trustedCont h2{
+.trustedCont h2 {
   font-weight: 700;
   font-size: 28px;
   line-height: 1.35;
   letter-spacing: -0.2px;
   color: #1c1d1f;
- 
+
   text-align: center;
 }
-.trustedCont p{
-  margin: 8px 0px 24px;    
+.trustedCont p {
+  margin: 8px 0px 24px;
   font-weight: 400;
   line-height: 1.4;
   font-size: 18px;
   color: #1c1d1f;
   text-align: center;
 }
-.trustedLogos{
+.trustedLogos {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -586,26 +584,98 @@ input::placeholder {
 }
 
 /* udemyBusinessSection */
-.udemyBusiness{
-  width: 192px ;
-  height:32px;
+.udemyBusiness {
+  width: 192px;
+  height: 32px;
 }
-.udemyBusinessLogo{
+.udemyBusinessLogo {
   margin-bottom: 16px;
 }
-.udemyBusinessText{
+.udemyBusinessText {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.instructorUdemyContainer{
+.instructorUdemyContainer {
   display: flex;
-  align-items:center;
+  align-items: center;
   padding: 40px 0px;
 
   gap: 60px;
   width: 900px;
   margin: 0 auto;
 }
+/* footetStyle */
+footer{
+  width: 100%;
+  height: 293px;
+  padding:24px 32px;
+  background-color: #1c1d1f;
+  border: 1px solid #1c1d1f;
+
+
+}
+.udemyFooterCont{
+  display: flex;
+  align-items: center;
+/* justify-content: center; */
+gap: 150px;
+  
+}
+.udemyFooterCont li{
+  list-style-type: none;
+ 
+}
+.udemyFooterCont a{
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  text-align: left;
+  width: 100%;
+  padding: 10px 0px;
+  font-weight: 400;
+    line-height: 1.4;
+    font-size: 15px;
+}
+.udemyFooterCont a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.englishButton {
+  width: 140px;
+  height: 40px;
+  border: 1px solid #fff;
+  padding: 12px;
+  margin-top: 10px;
+  text-decoration: none;
+  color:#fff;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: -70px;
+}
+.footerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerButtom{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 0 32px;
+}
+.footerButtom p{
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 16px;
+  color: #fff;
+}
+
 
 
